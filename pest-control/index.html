@@ -2,9 +2,72 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class='heading-container'>
+      <h1 class='heading'>Mario Pest Control</h1>
+      <h2 class='enter'>Enter your number correctly to calculate</h2>
+    </div>
+    <form id="form" class="form" method="post">
+      <!-- input for number and price to enter -->
+      <div class="container">
+          <div class="goombas boxes">
+            <div class="">
+              <label for="">Number of Goombas:</label>
+              <input id="goombasNumber" type="number" name="" value="">
+            </div>
+            <div>
+              <label for="">Price per Goombas:</label>
+              <input id="goombasPrice" type="number" name="" value="">
+            </div>
+          </div>
+          <div class="Bob-ombs boxes">
+            <div>
+              <label for="">Number of Bob-ombs:</label>
+              <input id="bobNumber" type="number" name="" value="">
+            </div>
+            <div>
+              <label for="">Price per Bob-ombs:</label>
+              <input id="bobPrice" type="number" name="" value="">
+            </div>
+          </div>
+          <div class="Cheep-cheeps boxes">
+            <div>
+              <label for="">Number of Cheep-cheeps:</label>
+              <input id="cheepNumber" type="number" name="" value="">
+            </div>
+            <div>
+              <label for="">Price per Cheep-cheeps:</label>
+              <input id="cheepPrice" type="number" name="" value="">
+            </div>
+          </div>
+          <!-- submit btn -->
+          <div class='btn'>
+            <button id="button" type="submit" name="button">Calculate</button>
+          </div>
+          <!--result part  -->
+          <div class="total boxes">
+            <label for="">Cost for Goombas:</label>
+            <input id="goobasCost" type="number" name="" value="">
+          </div>
+          <div class="total boxes">
+            <label for="">Cost for Bob-ombs:</label>
+            <input id="bobCost" type="number" name="" value="">
+          </div>
+          <div class="total boxes">
+            <label for="">Cost for Cheep-cheeps:</label>
+            <input id="cheepCost" type="number" name="" value="">
+          </div>
+          <div class="total boxes">
+            <label for="">Total Cost:</label>
+            <input id="totalCost" type="number" name="" value="">
+          </div>
+      </div>
+    </form>
+    <script type="text/javascript" src="code.js">
 
+    </script>
   </body>
 </html>
