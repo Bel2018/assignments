@@ -35,16 +35,16 @@ const totalCost = document.getElementById('totalCost');
 
 // calculate ui
 const goombasTotalPrice = parseFloat(goombasNumber * goombasPrice);
-const bobTotalPrice = parseFloat(bobNumber * bobPrice );
+const bobTotalPrice = parseFloat(bobNumber * bobPrice);
 const cheepTotalPrice = parseFloat(cheepNumber * cheepPrice);
 const allTotalPrice = parseFloat(goombasTotalPrice + bobTotalPrice + cheepTotalPrice);
 
 // the result part
 
-goombasCost.value = goombasTotalPrice;
-bobCost.value = bobTotalPrice;
-cheepCost.value = cheepTotalPrice;
-totalCost.value = allTotalPrice;
+goombasCost.textContent= goombasTotalPrice;
+bobCost.textContent = bobTotalPrice;
+cheepCost.textContent = cheepTotalPrice;
+totalCost.textContent = allTotalPrice;
 
 e.preventDefault();
 }
